@@ -37,13 +37,13 @@ gcloud services enable \
 
 ---
 
-### 📦 Paso 2: Infraestructura Data Lake
+### 📦 Paso 2: Infraestructura 
 
 Crea el Bucket de almacenamiento y organiza las carpetas para separar los datos crudos (raw) de los códigos (scripts). Finalmente, carga el archivo fuente.
 
 ```bash
 ###############################################################################
-# 2. DATA LAKE & INGESTA
+# 2. INGESTA
 # Crea el bucket, define la estructura de carpetas y sube el CSV.
 ###############################################################################
 
@@ -282,7 +282,6 @@ Conectar **Looker Studio** a la tabla `cepreuni_bi.fact_postulaciones` y realiza
 ├── etl/
 ├── sql/
 ├── dashboard/
-├── docs/
 └── readme.md
 ```
 
